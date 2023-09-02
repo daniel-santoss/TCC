@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    flex-flow: nowrap;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+
+}
+
+.logo{
+    display: flex;
+    flex: 70%;
+    
+}
+
+.plogo{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-style: oblique;
+    font-size: 35px;
+    font-family: 'Great Vibes', sans-serif;
+                                                
+}
+
+.links{
+    display: flex;
+    font-size: 30px;
+    flex: 80%;
+    justify-content: flex-end;
+}
+
+.links a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid;
+    border-radius: 30px;
+    margin: 10px;
+    background: #333333;
+
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.redes a{
+    background: none;
+    margin: 0;
+    border: 0;
+}
+
+
+h1{
+    font-family: 'Cloister Black', sans-serif;
+    text-align: center;
+    font-size: 100px;                                  
+}
+
+
+.parte1{
+    display: flex;
+    justify-content: center;
+}
+
+.parte1 img{
+    margin-right: 30%;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.parte1 h2{
+    text-align: center;
+}
+
+.texto{
+    width: 400px;
+    position: absolute;
+    margin-left: 30%;
+    font-size: 22px;
+}
+
+
+
+.loja h1{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 100px;
+    margin-bottom: -50px;           
+}
+
+.loja{
+    margin-top: 140px;
+    text-align: center;
+}
+
+.loja h2{
+    font-family: 'Cloister Black', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -1px;         
+}
+
+.loja img{
+    width: 230px;
+    height: 230px;
+    margin: 40px;
+
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos p{
+    font-size: 22px;
+}
+
+.produtos h4{
+    color: #383838;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: -30px;
+}
+
+.produtos p{
+    font-size: 24px;
+    color: black;
+    font-weight:bold;
+    margin-top: -25px;
+}
+
+.produtos a{
+    text-decoration: none;
+}
+
+
+#estrela{
+    width: 130px;
+    height: 40px;
+    margin-top: -25px;
+}
+
+
+.mais-produtos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+.mais-produtos h2, .mais-profissionais h2, .orcamentos h2{
+    padding: 15px;
+    color: white;
+    border: 3px solid;
+    border-radius: 25px;
+    background: #333333;
+    width: 300px;
+    text-align: center;
+    margin-top: -15;
+
+}
+
+.mais-produtos a, .mais-profissionais a, .orcamentos a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.profissionais{
+    display: flex;
+    justify-content: center;
+}
+
+#h2-prof{
+    font-family: 'Cloister Black', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profissionais img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.profissionais p, a{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-top: -5px;
+    text-decoration: none;
+}
+
+.mais-profissionais{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+
+
+.trabalhos h1{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 70px;   
+}
+
+.trabalhos h2{
+    font-family: 'Cloister Black', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 5px;
+}
+
+.fotos-tattoo-1, .fotos-tattoo-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.fotos-tattoo-1 img, .fotos-tattoo-2 img{
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+}
+
+.fotos-tattoo-2{
+    margin-top: 50px;
+}
+
+
+.orcamentos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

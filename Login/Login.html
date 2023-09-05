@@ -16,34 +16,35 @@
 
 
     <section>
+        <a href="/Home/Home.html"><img src="seta-voltar-sem-traco.png" id="voltar"></a>
+
         <h2>Login</h2>
         <form method="post">
             <label>Email:</label>
-            <input type="email" name="email" autocomplete="off" required>
+            <input type="email" name="email" autocomplete="off" required placeholder="Insira seu email">
 
             <br>
             <label>Senha:</label>
             <input type="password" name="senha" autocomplete="off" required>
 
             <br>
-            <button type="submit" name="Entrar">Entrar</button><br>
+
+            <a href="/Pagina-principal/pagina-principal.html"><button type="submit" name="Entrar">Entrar</button></a><br>
+
+            
             <p style="text-align: center; color: white; font-weight:bold; margin-bottom: 2px; font-size: 20px;">Não tem
                 uma conta ainda?</p>
-            <a href="#">Cadastre-se aqui!</a><br>
-            <a href="#" style="color: #3256A0; text-decoration: none;">Esqueci a senha</a>
+            <a href="/Cadastro/Cadastro.html" id="cad-senha">Cadastre-se aqui!</a><br>
+            <a href="#" style="color: #3256A0; text-decoration: none;" id="cad-senha">Esqueci a senha</a>
         </form>
 
         
     </section>
 
-    <div class="direita">
-        <a href="#">Sou funcionário</a>
-
-        <div class="logo">
-            <img src="/imagens/LogoINK.png">
-        </div>
-
+    <div class="logo">
+        <img src="LogoINK.png">
     </div>
+        <a href="#" class="sou-func">Sou funcionário</a>
 
 </body>
 

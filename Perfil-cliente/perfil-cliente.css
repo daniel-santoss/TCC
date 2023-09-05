@@ -20,22 +20,6 @@ body{
     margin-right: auto;
 }
 
-#editar-foto{
-   margin-top: 190px;
-   width: 170px;
-   text-align: center;
-   margin-left: -185px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-style: italic;
-   font-weight:bold ;
-    padding: 10px;
-    background: #333333;
-    color: white;
-    border-radius: 12px;
-    border: 1px solid #333333;
-    cursor: pointer;
-}
-
 
 .seta-voltar a{
     display: flex;
@@ -61,19 +45,10 @@ body{
 }
 
 .dados-cliente h2{
-    display: inline;
+    margin-bottom: 10px;
 }
 
-.dados-cliente input{
-    margin-bottom: 20px;
-    margin-left: 5px;
-    width: 400px;
-    background: #333333;
-    color: white;
-    padding: 6px;
-}
-
-#concluir{
+button{
     display: flex;
     margin-left: auto;
     margin-right: auto;

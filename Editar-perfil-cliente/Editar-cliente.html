@@ -10,17 +10,20 @@
 
     <div class="principal">
         <div class="seta-voltar">
-            <a href="/Pagina-principal/pagina-principal.html"><img src="/imagens/seta-voltar-com-traco.png" id="seta-voltar"></a>
+            <a href="/Perfil-cliente/Perfil-cliente.html"><img src="seta-voltar-com-traco.png" id="seta-voltar"></a>
         </div>
     
         
     <div class="avatar">
-        <img src="/imagens/avatar.png" id="avatar">
+        <img src="avatar.png" id="avatar">
+        <div>
+            <button type="button" id="editar-foto">Editar foto de perfil</button>
+        </div>
     </div>
 
 
     <div class="logo">
-        <img src="/imagens/LogoINK.png">
+        <img src="LogoINK.png">
     </div>
 
 </div>
@@ -28,13 +31,13 @@
 
 <div class="dados-cliente">
 
-    <h2>Nome: Adalberto</h2>
-    <h2>Idade: 23</h2>
-    <h2>Telefone: 11 1234-5678</h2>
-    <h2>Email: adal.berto@gmail.com</h2>
+    <h2>Nome:</h2><input type="text" placeholder="Nome"><br>
+    <h2>Idade:</h2><input type="number" placeholder="00"><br>
+    <h2>Telefone:</h2><input type="tel" placeholder ="(99) 9999-9999" pattern= "\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" title="Utilize esse formato: (99) 9999-9999"><br>
+    <h2>Email:</h2><input type="email" placeholder="E-mail"><br>
 </div>
 
-<a href="#" class="link-button"><button>Editar perfil</button></a>
+<a href="/Pagina-principal/pagina-principal.html" class="link-button"><button id="concluir">Concluir</button></a>
 
 </body>
 </html>

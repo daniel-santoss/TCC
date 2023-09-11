@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+main{
+    background-color: rgb(11, 11, 11);
+}
+
 .esquerda h2{
     display: inline;
     font-family: 'Cloister Black', sans-serif;
@@ -20,10 +24,9 @@
 }
 
 .esquerda{
-    background: #1A1A1A;
+    background-color: rgb(11, 11, 11);
     height: 720px;
     width: 50%;
-    margin-left: px;
 }
 
 .itens1{
@@ -65,7 +68,7 @@ text-decoration: none;
 }
 
 #loja{
-    margin-left: -225px;
+    margin-left: -200px;
 }
 
 #orcamento{
@@ -107,8 +110,8 @@ text-decoration: none;
 
 .logo{
     display: flex;
-    margin-left: 740px;
-    background: rgb(11, 11, 11);
+    margin-left: 900px;
+    background-color: rgb(11, 11, 11);
     height: 720px;
     width: 50%;
     margin-top: -720px;
@@ -123,6 +126,7 @@ text-decoration: none;
 
 .opcoes{
     display: flex;
+    margin-right: 150px;
     margin-top: -130px;
     width: 800px;
     height: 100px;
@@ -142,7 +146,7 @@ text-decoration: none;
 }
 
 button{
-    background: black;
+    background: #4D4D4D;
     color: white;
     padding: 16px;
     font-size: 22px;

@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    background-color: white;
+    background-color: rgb(11, 11, 11);
 }
 
 .menu{
@@ -25,14 +25,18 @@ body{
     
 }
 
+.logo{
+    display: flex;
+    flex: 70%;    
+}
+
 .plogo{
     color: white;
     display: flex;
     align-items: center;
     font-style: oblique;
     font-size: 35px;
-    font-family: 'Great Vibes', sans-serif;
-                                                
+    font-family: 'Great Vibes', sans-serif;                                               
 }
 
 .links{
@@ -50,7 +54,6 @@ body{
     border-radius: 30px;
     margin: 10px;
     background: #333333;
-
 }
 
 .links a:hover{
@@ -74,9 +77,9 @@ body{
 footer{
     background-color: black;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .rodape{
@@ -87,6 +90,6 @@ footer{
 
 #suporte-link{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: underline;
 }

@@ -112,11 +112,11 @@ text-decoration: none;
     display: flex;
     margin-left: 900px;
     background-color: rgb(11, 11, 11);
-    height: 720px;
-    width: 50%;
     margin-top: -720px;
     justify-content: center;
     align-items: center;
+    width: 700px;
+    height: 700px;
 }
 
 .logo img{

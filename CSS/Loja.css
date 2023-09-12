@@ -19,6 +19,7 @@ main{
 
 form{
     margin-left: 35%;
+    margin-bottom: 100px;
 }
 
 #pesquisa{
@@ -31,6 +32,10 @@ form{
 
 #pesq{
     height: 40px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
 }
 
 button{
@@ -45,6 +50,11 @@ button{
     justify-content: space-around;
 }
 
+.produtos img{
+    width: 250px;
+    height: 250px;
+}
+
 .prod1{
     width: 200px;
     margin: 20px;
@@ -57,8 +67,9 @@ button{
     width: 200px;
 }
 
-.estrelas{
+#estrela{
     width: 200px;
+    height: 60px;
 }
 
 a{

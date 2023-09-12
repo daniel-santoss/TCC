@@ -73,15 +73,20 @@ button:hover{
 }
 
 .logo-1{
-    display: flex;
-    margin-left: 500px;
-    background: rgb(11, 11, 11);
     width: 50%;
     height: 680px;
-    margin-top: -680px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    float:right
+    background: rgb(11, 11, 11);
+    margin-top: -680px;
+    float:right;
+}
+
+.logo-1 img{
+    margin-top: -80px;
+    width: 450px;
+    height: 450px;
 }
 
 .logo img{

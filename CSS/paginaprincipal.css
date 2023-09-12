@@ -2,15 +2,13 @@
     margin: 0;
 }
 
-main{
-    background-color: rgb(11, 11, 11);
-}
 
 .esquerda h2{
     display: inline;
     font-family: 'Cloister Black', sans-serif;
     color: white;
     font-size: 50px;
+    margin-left: 12%;
     margin-right: 10px;
 
 }
@@ -24,7 +22,7 @@ main{
 }
 
 .esquerda{
-    background-color: rgb(11, 11, 11);
+    background: #1A1A1A;
     height: 720px;
     width: 50%;
 }
@@ -65,10 +63,11 @@ text-decoration: none;
 
 #agenda{
     margin-left: -245px;
+
 }
 
 #loja{
-    margin-left: -200px;
+    margin-left: -225px;
 }
 
 #orcamento{
@@ -110,8 +109,8 @@ text-decoration: none;
 
 .logo{
     display: flex;
-    margin-left: 900px;
-    background-color: rgb(11, 11, 11);
+    margin-left: 792px;
+    background: rgb(11, 11, 11);
     height: 720px;
     width: 50%;
     margin-top: -720px;
@@ -126,7 +125,6 @@ text-decoration: none;
 
 .opcoes{
     display: flex;
-    margin-right: 150px;
     margin-top: -130px;
     width: 800px;
     height: 100px;
@@ -146,7 +144,7 @@ text-decoration: none;
 }
 
 button{
-    background: #4D4D4D;
+    background: black;
     color: white;
     padding: 16px;
     font-size: 22px;

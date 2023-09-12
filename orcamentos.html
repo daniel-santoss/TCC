@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamentos</title>
+    <link rel="stylesheet" href="CSS/orcamentos.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cloister-black');
+        @import url('https://fonts.cdnfonts.com/css/great-vibes');
+    </style>
+
+</head>
+
+<body>
+
+    <div class="cima">
+        <a href="/pagina-principal.html"><img src="/imagens/seta-voltar-com-traco.png" id="seta"></a>
+        <h2>Orçamentos</h2>
+        <img src="imagens/LogoINK.png" id="logo">
+    </div>
+
+<div class="labels">
+
+    <label>Parte do corpo desejada</label>
+
+    <label>Pigmentação: (Opcional)</label>
+
+    <label>Tamanho da tatuagem:</label>
+
+</div>
+
+
+    <div class="principal">
+
+        <!-- <label>Parte do corpo desejada</label> -->
+        <select required>
+            <option selected disabled>Selecione:</option>
+            <option>Cabeça</option>
+            <option>Tronco</option>
+            <option>Braços</option>
+            <option>Pernas</option>
+            <option>Outros</option>
+        </select>
+
+        <!-- <label>Pigmentação: (Opcional)</label> -->
+        <input type="text" placeholder="Digite aqui">
+
+        <!-- <label>Tamanho da tatuagem:</label> -->
+        <input type="text" placeholder="Ex: 15cm x 10cm">
+
+    </div>
+
+    <div class="labels-2">
+        <label id="col">Colorido?</label>
+        <label id="ref">Referência:</label>
+    </div>
+
+    
+    <div class="baixo">
+        
+        <div class="radios">
+        <input type="radio" name="opc">Sim<br>
+        <input type="radio" name="opc">Não
+        </div>
+
+        <div class="ref">
+            <img src="/imagens/seta-voltar-com-traco.png">
+            <input type="file" name="file" id="file" class="inputfile">
+            <label for="file" class="file-c">Carregar imagem</label>
+        </div>
+    </div>
+
+    <a href="#" class="link-button"><button id="concluir">Enviar</button></a>
+
+</body>
+
+</html>

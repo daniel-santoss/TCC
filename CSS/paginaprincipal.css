@@ -109,15 +109,14 @@ text-decoration: none;
 
 .logo{
     display: flex;
-<<<<<<< HEAD
     margin-left: 792px;
     background: rgb(11, 11, 11);
     height: 720px;
     width: 50%;
-=======
+
     margin-left: 900px;
     background-color: rgb(11, 11, 11);
->>>>>>> c6f4d82749d7ff3e6bc0f43cdab839d245300d8e
+
     margin-top: -720px;
     justify-content: center;
     align-items: center;

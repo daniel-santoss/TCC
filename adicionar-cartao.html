@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar cartão</title>
+    <link rel="stylesheet" href="CSS/cabeca-rodape.css">
+    <link rel="stylesheet" href="CSS/adicionar-cartao.css">
+    
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cloister-black');
+        @import url('https://fonts.cdnfonts.com/css/great-vibes');
+    </style>
+</head>
+<body>
+    
+    <div class="sup">
+        <a href="cartao.html"><img src="imagens/seta-voltar-sem-traco.png" id="voltar"></a>
+        <h2>Cartões</h2>
+        <img src="imagens/LogoINK.png" id="logo">
+    </div>
+
+
+    <div class="labels">
+
+        <label>Nome do cartão</label>
+    
+        <label>Número do cartão</label>
+    
+        <label>Tipo do cartão</label>
+    
+    </div>
+    
+    
+        <div class="principal">
+    
+            <input type="text" placeholder="Digite aqui">
+            <input type="text" placeholder="XXXX - XXXX - XXXX - 1234">
+            
+            <select required>
+                <option selected disabled>Selecione:</option>
+                <option>Débito</option>
+                <option>Crédito</option>
+
+            </select>
+        </div>
+
+        <div class="baixo">
+        
+            <div class="labels">
+
+                <label id="pais">País</label>
+            
+                <label id="venc">Data de vencimento</label>
+            
+                <label id="cvv">CVV</label>
+            
+            </div>
+            
+            
+                <div class="principal">
+            
+                    <input type="text" placeholder="Brasil">
+                    <input type="month">
+                    <input type="text" placeholder="123">
+                </div>
+        </div>
+
+
+        <a href="cartao.html" class="link-button"><button id="concluir">Concluir</button></a>
+
+</body>
+</html>

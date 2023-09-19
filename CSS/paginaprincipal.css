@@ -22,7 +22,7 @@
 }
 
 .esquerda{
-    background: #1A1A1A;
+    background: rgb(11, 11, 11);
     height: 720px;
     width: 50%;
 }
@@ -109,15 +109,14 @@ text-decoration: none;
 
 .logo{
     display: flex;
-    margin-left: 792px;
+    margin-left: 760px;
     background: rgb(11, 11, 11);
     height: 720px;
     width: 50%;
 
-    margin-left: 900px;
     background-color: rgb(11, 11, 11);
 
-    margin-top: -720px;
+    margin-top: -750px;
     justify-content: center;
     align-items: center;
     width: 700px;

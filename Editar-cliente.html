@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/editar-cliente.css">
     <title>Editar perfil</title>
 </head>
+
 <body>
 
     <div class="principal">
         <div class="seta-voltar">
             <a href="Perfil-cliente.html"><img src="imagens/seta-voltar-com-traco.png" id="seta-voltar"></a>
         </div>
-    
-        
-    <div class="avatar">
-        <img src="imagens/avatar.png" id="avatar">
-        <div>
-            <button type="button" id="editar-foto">Editar foto de perfil</button>
+
+
+        <div class="avatar">
+            <img src="imagens/avatar.png" id="avatar">
+            <div>
+                <button type="button" id="editar-foto">Editar foto de perfil</button>
+            </div>
         </div>
+
+
+        <div class="logo">
+            <img src="imagens/LogoINK.png">
+        </div>
+
     </div>
 
 
-    <div class="logo">
-        <img src="imagens/LogoINK.png">
+    <div class="dados-cliente">
+
+        <h2>Nome:</h2><input type="text" placeholder="Nome"><br>
+        <h2>Idade:</h2><input type="number" placeholder="00"><br>
+        <h2>Telefone:</h2><input type="tel" placeholder="(99) 9999-9999" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
+            title="Utilize esse formato: (99) 9999-9999"><br>
+        <h2>Email:</h2><input type="email" placeholder="E-mail"><br>
     </div>
 
-</div>
+    <a href="Perfil-cliente.html" class="link-button"><button id="concluir">Concluir</button></a>
 
+    <footer>
+        <article class="rodape">
+            <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
+                Tel: +55 11 3242-2345 <br>
+                <a href="Suporte.html" id="suporte-link">Suporte</a>
+            </p>
 
-<div class="dados-cliente">
-
-    <h2>Nome:</h2><input type="text" placeholder="Nome"><br>
-    <h2>Idade:</h2><input type="number" placeholder="00"><br>
-    <h2>Telefone:</h2><input type="tel" placeholder ="(99) 9999-9999" pattern= "\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" title="Utilize esse formato: (99) 9999-9999"><br>
-    <h2>Email:</h2><input type="email" placeholder="E-mail"><br>
-</div>
-
-<a href="Perfil-cliente.html" class="link-button"><button id="concluir">Concluir</button></a>
+            <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
+                Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
+        </article>
+    </footer>
 
 </body>
+
 </html>

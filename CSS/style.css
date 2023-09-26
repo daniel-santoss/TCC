@@ -10,6 +10,53 @@ main{
     background-image: linear-gradient(black, gray)
 }
 
+
+nav li{
+    display: inline-block;
+    font-size: 18px;
+    width: 180px;
+    text-align: center;
+    margin-right: 5px
+
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    width: 180px;
+
+    }
+
+nav li a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    font-size: 20px;
+    margin: 0px;
+    width: 180px;
+    
+}
+
+.dropdown img{
+    width: 50px;
+    height: 50px;
+}
+
+.dropdown-menu a{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 h1{
     font-family: 'Cloister Black', sans-serif;
     text-align: center;

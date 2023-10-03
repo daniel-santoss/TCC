@@ -7,6 +7,13 @@ body{
     overflow-x: hidden;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
 
 .esquerda{
     width: 65%;

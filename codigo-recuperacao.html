@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulseira de correntes</title>
-    <link rel="stylesheet" href="CSS/produto-pulseira.css">
+    <title>Código de recuperação de senha</title>
+    <link rel="stylesheet" href="CSS/codigo-recuperar.css">
     <link rel="stylesheet" href="CSS/cabeca-rodape.css">
+
+     
+
     <style>
         @import url('https://fonts.cdnfonts.com/css/cloister-black');
         @import url('https://fonts.cdnfonts.com/css/great-vibes');
     </style>
 </head>
+
 <body>
 
     <header>
         <nav class="menu" style="margin-bottom: 0;">
-            <a href="#"><img src="imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
+            <a href="recuperar-senha.html"><img src="imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
 
             <ul>
                 <li class="dropdown">
@@ -29,7 +35,7 @@
                     </ul>
             
 
-            <div class="logo">
+            <div class="logo-c">
                 <a href="Home.html">
                     <img src="imagens/LogoINK.png" style="height: 120px; width: 120px; border-radius: 50%;"></a>
                 <p class="plogo">O melhor site de tatuagem do Brasil!</p>
@@ -55,44 +61,50 @@
         </nav>
     </header>
 
-<div class="produto">
+    <main>
 
-    <img src="imagens/ColeraMao.jpg">
-    <div class="info">
-        <h3>Pulseira de correntes</h3>
-        <p class="preco">R$ 89,90</p>
-        <div class="qtd">
-            <button class="mais">+</button>
-            <span class="quant">1</span>
-            <button class="menos">-</button>
+        <div class="rec">
+            <form>
+                <a href="Login.html"><img src="imagens/seta-voltar-com-traco.png" width="70px" height="70px" class="seta"></a>
+
+                <h1>Recuperar senha</h1>
+                <h2>Digite o código enviado para o seu e-mail:</h2>
+                <input type="text" placeholder="XXX-XXX"><br>
+
+                <a href="Login.html"><button type="button">Recuperar</button></a>
+
+                <div class="sup">
+                    <a href="Suporte.html"><img src="imagens/equipe-sup.png" width="50px" height="50px"></a>
+                    <a href="Suporte.html" style="text-decoration: none; color: white;"><h3>Equipe de suporte</h3></a>
+                </div>  
+                
+            </form>
+         
+            
         </div>
 
-        <div class="cor">
-        <img src="imagens/selecor.png" id="selecor"><p style="margin-top: 10px;">Cor: Preta</p>
-    </div>
-        <p style="font-size: 20px; margin-bottom: 8px;">Tamanho: Único</p>
-    </div>
-</div>
 
-<div class=desc>
-    <h3>Descrição</h3>
-    <p>A pulseira de correntes é feita de material de prata tingida da cor preta com alguns pingentes.</p>
-</div>
+
+        <div class="logo">
+            <img src="imagens/LogoINK.png">
+        </div>
+    </main>
+
+    <footer style="position: relative; bottom: 0; width: 100%;">
+        <article class="rodape">
+            <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
+                Tel: +55 11 3242-2345 <br>
+                <a href="Suporte.html" id="suporte-link">Suporte</a>
+            </p>
     
-<button type="button" id="add">Acicionar ao carrinho</button>
+            <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
+                Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
+        </article>
+    </footer>
 
-
-<footer style="position: relative; bottom: 0; width: 100%;">
-    <article class="rodape">
-        <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
-            Tel: +55 11 3242-2345 <br>
-            <a href="Suporte.html" id="suporte-link">Suporte</a>
-        </p>
-
-        <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
-            Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
-    </article>
-</footer>
+                       
+   
 
 </body>
+
 </html>

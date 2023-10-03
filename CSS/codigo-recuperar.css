@@ -1,14 +1,13 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
-    margin: 0;
-    background-color: rgb(11, 11, 11);
+    background: #1A1A1A;
 }
-
-
-/* MENU */
 
 nav li{
     display: inline-block;
@@ -76,7 +75,7 @@ nav li a:hover{
     
 }
 
-.logo{
+.logo-c{
     display: flex;
     flex: 70%;    
 }
@@ -126,29 +125,97 @@ nav li a:hover{
 .as2{
     margin-top: 25px;
 }
-/*-----FOOTER-----*/
-footer{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    position: relative;
-    bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.rodape{
+main{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: flex-start ;
-}
-
-#suporte-link{
     color: white;
-    font-size: 20px;
-    text-decoration: underline;
 }
 
-.inf-contato{
-    margin-right: 100px;
+.rec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    min-height: 100vh;
+    text-align: center; 
 }
+
+.rec h1{
+    position: relative;
+    bottom: 250px;
+    font-size: 70px;
+    font-family: 'Cloister Black', sans-serif;
+}
+
+h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.rec .seta{
+    position: relative;
+    bottom: 230px;
+    right: 360px;
+    cursor: pointer;
+}
+
+
+.rec input{
+    width:30rem;
+    height: 3rem;
+    font-size: 18px;
+}
+
+.rec button{
+    width: 30rem;
+    height: 3rem;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: none;
+}
+
+.rec button:hover{
+    background: #004578;
+    transition: 0.5s;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    min-height: 100vh;
+    background: #0e0e0e;
+}
+
+.logo img{
+    height: 400px;
+    width: 400px;
+}
+
+.sup{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer ;  
+    text-align: center;  
+    width: 30rem;
+    background: black;
+    
+
+}
+
+.sup h3{
+    margin-left: 10px;
+}
+
+

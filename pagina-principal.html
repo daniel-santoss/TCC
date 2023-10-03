@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="br">
+<html xmlns:th"http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <link rel="stylesheet" href="CSS/paginaprincipal.css">
-    <link rel="stylesheet" href="CSS/cabeca-rodape.css">
+    <link rel="stylesheet" href="CSS/paginaprincipal.css"/>
+    <link rel="stylesheet" href="CSS/cabeca-rodape.css"/>
 
 
     <style>
@@ -46,7 +47,7 @@
     <main>
         <div class="esquerda">
             <h2>Seja bem-vindo(a),</h2>
-            <p>Adalberto!</p>
+            
 
             <div class="itens1">
                 <a href="chat.html"><img src="imagens/chat.png"></a>
@@ -87,7 +88,7 @@
         <div class="opcoes">
             <div class="primeira">
                 <h2>Conheça nossos</h2>
-                <button>Profissionais</button>
+                <a href="profissionais.html"><button>Profissionais</button></a>
             </div>
 
             <div class="segunda">
@@ -98,7 +99,7 @@
     </main>
 
 
-    <footer>
+    <footer style="position: relative; bottom: 0; width: 100%;">
         <article class="rodape">
             <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
                 Tel: +55 11 3242-2345 <br>
@@ -113,4 +114,4 @@
 
 </body>
 
-</html
+</html>

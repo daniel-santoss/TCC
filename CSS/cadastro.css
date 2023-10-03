@@ -10,7 +10,6 @@ section{
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background: #1A1A1A;
     width: 50%;
     height: 680px;
 }
@@ -46,7 +45,7 @@ form input{
 
 form button{
     border: solid 1px #4D4D4D;
-    width: 49.7%;
+    width: 300px;
     padding: 20px;
     font-size: 28px;
     background: #4D4D4D;
@@ -81,7 +80,10 @@ button:hover{
 }
 
 .botoes{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 

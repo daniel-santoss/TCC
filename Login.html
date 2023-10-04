@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html xmlns:th"http://thymeleaf.org"
-	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html xmlns:th"http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="CSS/login.css"/>
-    <link rel="stylesheet" href="CSS/cabeca-rodape.css"/>
+    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="stylesheet" href="CSS/cabeca-rodape.css" />
 
 
     <style>
@@ -17,23 +16,20 @@
 </head>
 
 <body>
-    
+
 
     <header>
         <nav class="menu" style="margin-bottom: 0;">
-            <a href="Home.html"><img src="imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
-
             <ul>
                 <li class="dropdown">
                     <a href=""><img src="imagens/menu.png"></a>
-    
+
                     <div class="dropdown-menu">
-                        <a href="Cadastro.html" target="_self">Cadastro</a>
-                    <a href="Home.html" target="_self">Chat</a>
-                    <a href="Painel.html" target="_self">Carrinho</a>
-                    <a href="FaleConosco.html" target="_self">Fale conosco</a>
-                    </ul>
-            
+                        <a href="chat.html" target="_self">Chat</a>
+                        <a href="Carrinho.html" target="_self">Carrinho</a>
+                        <a href="FaleConosco.html" target="_self">Fale conosco</a>
+            </ul>
+
 
             <div class="logo">
                 <a href="Home.html">
@@ -43,21 +39,21 @@
 
             <div class="links">
                 <div class="as">
-                <a href="Login.html">Login</a>
-                <a href="Loja.html">Loja</a>
-                <a href="orcamentos.html">Orçamentos</a>
+                    <a href="Home.html">Home</a>
+                    <a href="Loja.html">Loja</a>
+                    <a href="orcamentos.html">Orçamentos</a>
                 </div>
 
                 <div class="redes">
                     <div class="as2">
-                    <a href="https://www.instagram.com/">
-                        <img src="imagens/insta.png" width="50px" height="50px"></a>
+                        <a href="https://www.instagram.com/">
+                            <img src="imagens/insta.png" width="50px" height="50px"></a>
 
-                    <a href="https://www.facebook.com">
-                        <img src="imagens/face.png" width="50px" height="50px"></a>
+                        <a href="https://www.facebook.com">
+                            <img src="imagens/face.png" width="50px" height="50px"></a>
+                    </div>
+
                 </div>
-
-            </div>
         </nav>
     </header>
 
@@ -75,13 +71,14 @@
 
             <br>
             <div th:if="${erro != null}" th:text="${erro}" role="alert" style="color: red; font-size: 15px;"></div>
-            <a href="pag-principal-func.html"><button type="submit" name="Entrar">Entrar</button></a><br>
+            <a href="pagina-principal.html"><button type="submit" name="Entrar">Entrar</button></a><br>
 
 
             <p style="text-align: center; color: white; font-weight:bold; margin-bottom: 2px; font-size: 20px;">Não tem
                 uma conta ainda?</p>
             <a href="Cadastro.html" id="cad-senha">Cadastre-se aqui!</a><br>
-            <a href="recuperar-senha.html" style="color: #3256A0; text-decoration: none;" id="cad-senha">Esqueci a senha</a>
+            <a href="recuperar-senha.html" style="color: #3256A0; text-decoration: none;" id="cad-senha">Esqueci a
+                senha</a>
         </form>
 
 

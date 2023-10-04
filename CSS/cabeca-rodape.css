@@ -37,10 +37,10 @@ nav li a:hover{
 .dropdown-menu{
     position: absolute;
     display: none;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px;
     width: 180px;
-    
+    background-color: black;
 }
 
 .dropdown img{
@@ -55,8 +55,6 @@ nav li a:hover{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-
-
 
 .menu{
     display: flex;
@@ -131,8 +129,7 @@ footer{
     background-color: black;
     color: white;
     font-size: 20px;
-    position: relative;
-    bottom: 0;
+    margin-bottom: -100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 

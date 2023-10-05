@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adicionar Produto</title>
-    <link rel="stylesheet" href="CSS/add-produto.css">
+    <title>Agenda funcionário</title>
+    <link rel="stylesheet" href="CSS/agenda-func.css">
     <link rel="stylesheet" href="CSS/cabeca-rodape.css">
     <style>
         @import url('https://fonts.cdnfonts.com/css/cloister-black');
         @import url('https://fonts.cdnfonts.com/css/great-vibes');
+
     </style>
 </head>
+
 <body>
-    
+
     <header>
         <nav class="menu" style="margin-bottom: 0;">
-            <a href="#"><img src="imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
+            <a href="pagina-principal.html"><img src="imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
 
             <ul>
                 <li class="dropdown">
                     <a href=""><img src="imagens/menu.png"></a>
     
                     <div class="dropdown-menu">
-                        <a href="Cadastro.html" target="_self">Cadastro</a>
                     <a href="Home.html" target="_self">Chat</a>
                     <a href="Painel.html" target="_self">Carrinho</a>
                     <a href="FaleConosco.html" target="_self">Fale conosco</a>
@@ -38,7 +39,7 @@
 
             <div class="links">
                 <div class="as">
-                <a href="Login.html">Login</a>
+                <a href="Home.html">Home</a>
                 <a href="Loja.html">Loja</a>
                 <a href="#">Orçamentos</a>
                 </div>
@@ -56,40 +57,50 @@
         </nav>
     </header>
 
-    <main>
-        <div class="load">
-            <img src="imagens/carregar.png" style="background-color: white; padding: 100px;" >
-            <h3>Descrição</h3>
-            <input type="text" placeholder="Nome do Produto">
-        </div>
+    <h1 style="text-align: center; font-size: 90px; color: white; margin-bottom: 100px; font-family: 'Cloister Black', sans-serif;
+    ">Agenda</h1>
 
-        <div class="info">
-            <h3>Nome do produto</h3>
-            <input type="text" class="no" placeholder="Nome do produto">
-            <div class="cor-c">
-            <img src="imagens/selecor.png" width="50px" height="50px">
-            <h3>Cor:</h3><input type="text" placeholder="Cor" class="cor">
-        </div>
-            <h3 class="tam">Tamanhos: Único</h3>
+    <table width="80%" style="margin-bottom: 150px;">
+        <tr>
+            <th>Dias marcados</th>
+            <th>Horário</th>
+            <th>Serviço</th>
+            <th>Profissional</th>
+        </tr>
 
-        </div>
-    </main>
+        <tr>
+            <td><input type="date"></td>
+            <td>13:00</td>
+            <td>Tatuagem</td>
+            <td>José Kinovic</td>
+        </tr>
 
-    <div class="bot">
-    <a href=""><button>Adicionar a loja</button></a>
-</div>
+        <tr>
+            <td><input type="date"></td>
+            <td>16:00</td>
+            <td>Piercing</td>
+            <td>Katarina Malaclov</td>
+        </tr>
 
-<footer style="position: relative; bottom: 0; width: 100%;">
-    <article class="rodape">
-        <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
-            Tel: +55 11 3242-2345 <br>
-            <a href="Suporte.html" id="suporte-link">Suporte</a>
-        </p>
+    </table>
 
-        <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
+    <div class="criar">
+        <h3>Criar agendamento</h3>
+        <img src="imagens/agenda.png">
+    </div>
+
+
+    <footer style="position: absolute; bottom: 0; width: 100%;">
+        <article class="rodape">
+            <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
+                Tel: +55 11 3242-2345 <br>
+                <a href="Suporte.html" id="suporte-link">Suporte</a></p>
+    
+            <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
             Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
-    </article>
-</footer>
+        </article>
+    </footer>
 
 </body>
+
 </html>

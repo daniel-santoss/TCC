@@ -37,6 +37,8 @@ h3{
 
 main{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
     margin-left: 50px;
 }
@@ -54,9 +56,24 @@ main{
     border-radius: 12px;
 }
 
+.no{
+    position: relative;
+    bottom: 90px;
+}
+
+.cor-c{
+display: flex;
+position: relative;
+bottom: 160px;
+}
+
+.cor input{
+    width: 100px;
+}
+
 .tam{
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
 }
 
 .load input{

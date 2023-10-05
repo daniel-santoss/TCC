@@ -41,12 +41,10 @@ main{
     width: 200px;
 }
 
-.bolinha{
-    width: 30px;
-    height: 30px;
-    background: red;
-    border-radius: 50%;
-    margin-left: 20px;
+select{
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
 }
 
 .msg{

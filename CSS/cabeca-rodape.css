@@ -24,7 +24,7 @@ nav li a{
     color: white;
     text-decoration: none;
     padding: 30px;
-    width: 180px;
+    width: 220px;
 
     }
 
@@ -39,7 +39,7 @@ nav li a:hover{
     display: none;
     font-size: 30px;
     margin: 0px;
-    width: 180px;
+    width: 220px;
     background-color: black;
 }
 

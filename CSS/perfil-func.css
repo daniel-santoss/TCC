@@ -104,3 +104,14 @@ footer{
     bottom: 15px;
     margin-left: 10px;
 }
+
+.fto img{
+    width: 200px;
+    height: 200px;
+}
+
+.fto{
+    display: flex;
+    justify-content: center;
+}
+

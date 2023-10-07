@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +28,7 @@ main{
 
 .rec h1{
     position: relative;
-    bottom: 250px;
+    bottom: 100px;
     font-size: 70px;
     font-family: 'Cloister Black', sans-serif;
 }
@@ -81,3 +83,7 @@ h2{
     width: 400px;
 }
 
+
+.caix{
+    margin-bottom: 200px;
+}

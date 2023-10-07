@@ -78,3 +78,8 @@ table td, th{
     height: 60px;
     cursor: pointer;
 }
+
+.criar a{
+    text-decoration: none;
+    color: white;
+}

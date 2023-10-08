@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html xmlns:th"http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
-    <link rel="stylesheet" href="CSS/paginaprincipal.css">
-    <link rel="stylesheet" href="CSS/cabeca-rodape.css">
-    <!-- <link rel="stylesheet" href="CSS/cabeca-rodape.css"> -->
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="CSS/paginaprincipal.css"/>
+    <link rel="stylesheet" href="CSS/cabeca-rodape.css"/>
+
+
     <style>
         @import url('https://fonts.cdnfonts.com/css/cloister-black');
         @import url('https://fonts.cdnfonts.com/css/great-vibes');
@@ -15,26 +17,23 @@
 </head>
 
 <body>
-    
 
     <header>
-        <nav class="menu" style="margin-bottom: 0;">
-            <div class="logo">
+        <nav class="menu">
+
+            <div class="logo-cabecalho">
                 <a href="Home.html">
                     <img src="imagens/LogoINK.png" style="height: 120px; width: 120px; border-radius: 50%;"></a>
                 <p class="plogo">O melhor site de tatuagem do Brasil!</p>
             </div>
 
             <div class="links">
-                <div class="as">
                 <a href="Home.html">Home</a>
                 <a href="Loja.html">Loja</a>
                 <a href="orcamentos.html">Orçamentos</a>
-                </div>
 
                 <div class="redes">
-                    <div class="as2">
-                    <a href="https://www.instagram.com/">
+                    <a href="https://www.instagram.com">
                         <img src="imagens/insta.png" width="50px" height="50px"></a>
 
                     <a href="https://www.facebook.com">
@@ -46,66 +45,73 @@
     </header>
 
     <main>
-        <div class="conteudo-principal">
-            <div class="esquerda">
-                <div class="texto-esquerda">
-                    <h2>Seja bem-vindo(a),</h2>
-                    <p>Adalberto!</p>
-                </div>
+        <div class="esquerda">
+            <h2>Seja bem-vindo(a),</h2>
+            
 
-                <div class="itens1">
-                    <a href="chat.html"><img src="imagens/chat.png"></a>
-                    <a href="chat.html">
-                        <h4 id="chat">Chat</h4>
-                    </a>
+            <div class="itens1">
+                <a href="chat.html"><img src="imagens/chat.png"></a>
+                <a href="chat.html">
+                    <h4 id="chat">Chat</h4>
+                </a>
 
-                    <a href="Agenda.html"><img src="imagens/agenda.png"></a>
-                    <a href="Agenda.html">
-                        <h4 id="agenda">Agenda</h4>
-                    </a>
-                </div>
-
-                <div class="itens2">
-                    <a href="Loja.html"><img src="imagens/loja.png"></a>
-                    <a href="Loja.html">
-                        <h4 id="loja">Loja</h4>
-                    </a>
-
-                    <a href="Editar-cliente.html"><img src="imagens/avatar.png" id="orc"></a>
-                    <a href="Editar-cliente.html">
-                        <h4 id="orcamento">Editar Perfil</h4>
-                    </a>
-                </div>
-
-                <div class="logoff">
-                    <a href="Login.html"><img src="imagens/logoff.png"></a>
-                    <a href="Login.html">
-                        <h4>Logoff</h4>
-                    </a>
-                </div>
+                <a href="Agenda.html"><img src="imagens/agenda.png"></a>
+                <a href="Agenda.html">
+                    <h4 id="agenda">Agenda</h4>
+                </a>
             </div>
 
-            <div class="direita">
-                <img src="imagens/LogoINK.png" class="logo-c">
-                <h2 class="hb">Edite seu</h2>
-                <h2 class="hp">Conheça nossos</h2>
-                <a href="profissionais.html" class="b"><button style="width: 200px;">Profissionais</button></a>
-                <a href="Perfil-cliente.html" class="t"><button style="width: 200px;">Perfil</button></a>
+            <div class="itens2">
+                <a href="Loja.html"><img src="imagens/loja.png"></a>
+                <a href="Loja.html">
+                    <h4 id="loja">Loja</h4>
+                </a>
+
+                <a href="orcamentos.html"><img src="imagens/orcamento.png" id="orc"></a><a href="#"></a>
+                <a href="orcamentos.html">
+                    <h4 id="orcamento">Orçamento</h4>
+                </a>
+            </div>
+
+            <div class="logoff">
+                <a href="Login.html"><img src="imagens/logoff.png"></a>
+                <a href="Login.html">
+                    <h4>Logoff</h4>
+                </a>
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="imagens/LogoINK.png">
+        </div>
+
+        <div class="opcoes">
+            <div class="primeira">
+                <h2>Conheça nossos</h2>
+                <button>Profissionais</button>
+            </div>
+
+            <div class="segunda">
+                <h2>Edite seu</h2>
+                <a href="Editar-cliente.html"><button style="width: 120px; margin-left: -2px;">Perfil</button></a>
             </div>
         </div>
     </main>
+
 
     <footer>
         <article class="rodape">
             <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
                 Tel: +55 11 3242-2345 <br>
-                <a href="Suporte.html" id="suporte-link">Suporte</a>
+                <a href="#" id="suporte-link">Suporte</a>
             </p>
 
             <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
                 Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
         </article>
     </footer>
+
+
 </body>
 
 </html>

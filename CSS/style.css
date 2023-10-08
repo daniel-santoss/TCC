@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body{
     margin: 0;
 }
@@ -69,8 +65,18 @@ h1{
     width: 400px;
     position: absolute;
     margin-left: 30%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Cloister Black', sans-serif;
+    
+}
+.text1{
+    width: 500px;
+    text-align: justify;
+    margin-left: 20%;
     font-size: 22px;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
@@ -145,18 +151,19 @@ h1{
 .mais-produtos h2, .mais-profissionais h2, .orcamentos h2{
     padding: 15px;
     color: white;
-    border: 3px solid;
     border-radius: 25px;
-    background: #333333;
+    background: #000000;
     width: 300px;
     text-align: center;
     margin-top: -15;
+    
 
 }
 
 .mais-produtos a, .mais-profissionais a, .orcamentos a{
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 
@@ -170,12 +177,13 @@ h1{
     font-size: 100px;
     text-align: center;
     margin-bottom: 40px;
+    color: white;
 }
 
 .profissionais img{
     width: 200px;
     height: 200px;
-    border: 5px solid black;
+    border: 3px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 20px;
 }
@@ -183,7 +191,7 @@ h1{
 .profissionais p, a{
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: -5px;
     text-decoration: none;
 }
@@ -230,4 +238,12 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+.volt{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    margin-left: 40%;
+    font-weight: bold;
 }

@@ -87,7 +87,9 @@ button{
 
 
 button:hover{
-    background: royalblue;
+    background: rgb(255, 255, 255);
+    color: #1A1A1A;
+    transition: 1.0s;
 }
 
 a{

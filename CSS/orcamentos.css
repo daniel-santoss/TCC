@@ -39,6 +39,7 @@ h2{
 .principal input, select{
     width: 400px;
     height: 40px;
+    
 }
 
 .labels{
@@ -51,11 +52,11 @@ h2{
 
 
 .radios{
-    border: 2px solid white;
+    
     width: 150px;
     height: 150px;
     padding: 20px;
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     margin-right: 80px;
     margin-top: -65px;
@@ -144,10 +145,10 @@ label{
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
-    background: #333333;
+    background: #000000;
     color: white;
     border-radius: 12px;
-    border: 1px solid #333333;
+
     cursor: pointer;
     font-size: 24px;
     margin-top: 100px;
@@ -155,6 +156,12 @@ label{
     width: 200px;
     justify-content: center;
     font-weight:bold;
+}
+#concluir:hover{
+    background: #f5f5f5;
+    color: #101026;
+    transition-duration: 1s;
+    border-radius: 16px;
 }
 
 

@@ -37,7 +37,7 @@ h3{
 }
 
 .formas button{
-    background: #4D4D4D;
+    background: #000000;
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -47,11 +47,17 @@ h3{
     height: 60px;
     font-size: 25px;
     cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .formas button:hover{
-    background: royalblue;
+    background: #f5f5f5;
+    color: #101026;
+    transition-duration: 1s;
+    
 }
+
 
 .formas{
     display: flex;

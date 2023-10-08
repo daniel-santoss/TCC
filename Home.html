@@ -24,8 +24,6 @@
 <body>
     <header>
         <nav class="menu" style="margin-bottom: 0;">
-            <a href="pagina-principal.html"><img src="imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
-
             <ul>
                 <li class="dropdown">
                     <a href=""><img src="imagens/menu.png"></a>
@@ -46,8 +44,8 @@
             <div class="links">
                 <div class="as">
                 <a href="Home.html">Home</a>
-                <a href="#prods">Loja</a>
-                <a href="#orca">Orçamentos</a>
+                <a href="#ver">Loja</a>
+                <a href="Login.html">Login</a>
                 </div>
 
                 <div class="redes">
@@ -70,20 +68,22 @@
             <img src="imagens/logoINK.png">
             <div class="texto">
                 <h2>Quem somos?</h2>
-                <p>Somos uma empresa de tatuagem e piercing, realizamos qualquer tipo de serviço com auxilio de nossos
+            <div class="text1">
+                <p>     Somos uma empresa de tatuagem e piercing, realizamos qualquer tipo de serviço com auxilio de nossos
                     profissionais altamente qualificados e preparados. Visamos manter o máximo de conforto aos nossos
                     clientes por isso criamos um site onde os nossos clientes possam manter contato com o tatuador sem
                     precisar ir na loja física, além de poder realizar compras de produtos, fazer orçamentos e agendar
                     horários tudo isso online.</p>
+            </div>
             </div>
         </div>
 
 
         <div class="loja" id="ver">
             <h1 id="titulo-1">Conheça nossos serviços</h1> <br>
-            <h2 id="titulo-1">Loja</h2>
+            <h2 id="titulo-1" >Loja</h2>
 
-            <div class="produtos" id="prods">
+            <div class="produtos">
 
                 <div class="prod1">
 
@@ -101,14 +101,14 @@
 
                 <div class="prod2">
 
-                    <a href="produto-colar.html"><img src="imagens/ColeraMao.jpg"></a>
-                    <a href="produto-colar.html">
+                    <a href="produto-pulseira.html"><img src="imagens/ColeraMao.jpg"></a>
+                    <a href="produto-pulseira.html">
                         <h4>Pulseira de correntes</h4>
                     </a>
-                    <a href="produto-colar.html">
+                    <a href="produto-pulseira.html">
                         <p id="titulo-1">R$ 89,90</p>
                     </a>
-                    <a href="produto-colar.html"><img src="imagens/5estrelas.png" id="estrela"></a>
+                    <a href="produto-pulseira.html"><img src="imagens/5estrelas.png" id="estrela"></a>
 
                 </div>
 
@@ -127,14 +127,14 @@
 
                 <div class="prod4">
 
-                    <a href="#"><img src="imagens/Cordao.jpg"></a>
-                    <a href="#">
+                    <a href="produto-colar.html"><img src="imagens/Cordao.jpg"></a>
+                    <a href="produto-colar.html">
                         <h4>Colar</h4>
                     </a>
-                    <a href="#">
+                    <a href="produto-colar.html">
                         <p id="titulo-1">R$ 39,99</p>
                     </a>
-                    <a href="#"><img src="imagens/5estrelas.png" id="estrela"></a>
+                    <a href="produto-colar.html"><img src="imagens/5estrelas.png" id="estrela"></a>
 
                 </div>
             </div>
@@ -152,7 +152,7 @@
         <div class="profissionais">
 
             <div class="prof1">
-                <a href="profissionais.html"><img src="imagens/profissional.png"></a>
+                <a href="profissionais.html"><img src="imagens/p1.jpeg"></a>
                 <a href="profissionais.html">
                     <p>José Kinovic</p>
                 </a>
@@ -160,35 +160,35 @@
 
 
             <div class="prof2">
-                <a href="profissionais.html"><img src="imagens/profissional.png"></a>
+                <a href="profissionais.html"><img src="imagens/p2.jpeg"></a>
                 <a href="profissionais.html">
                     <p>Katarina Malaclov</p>
                 </a>
             </div>
 
             <div class="prof3">
-                <a href="profissionais.html"><img src="imagens/profissional.png"></a>
+                <a href="profissionais.html"><img src="imagens/p3.jpeg"></a>
                 <a href="profissionais.html">
                     <p>Adalberto</p>
                 </a>
             </div>
 
             <div class="prof4">
-                <a href="profissionais.html"><img src="imagens/profissional.png"></a>
+                <a href="profissionais.html"><img src="imagens/p4.jpeg"></a>
                 <a href="profissionais.html">
                     <p>Larissa Marihuana</p>
                 </a>
             </div>
 
             <div class="prof5">
-                <a href="profissionais.html"><img src="imagens/profissional.png"></a>
+                <a href="profissionais.html"><img src="imagens/p5.jpeg"></a>
                 <a href="profissionais.html">
                     <p>Jorge Torres</p>
                 </a>
             </div>
 
             <div class="prof6">
-                <a href="profissionais.html"><img src="imagens/profissional.png"></a>
+                <a href="profissionais.html"><img src="imagens/p6.jpeg"></a>
                 <a href="profissionais.html">
                     <p>Carla Nunes</p>
                 </a>
@@ -254,18 +254,23 @@
 
         </div>
 
-        <div class="orcamentos">
+        <div class="orcamentos" id="orc">
             <a href="orcamentos.html">
-                <h2 id="orca">Orçamentos</h2>
+                <h2>Orçamentos</h2>
             </a>
         </div>
+        <br>
+        <div class="volt">
+
+        <a href="Home.html" id="cad-senha">Volte para o início</a><br>
+    </div>
     </main>
 
     <footer style="margin-top: 0;">
         <article class="rodape">
             <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
                 Tel: +55 11 3242-2345 <br>
-                <a href="Suporte.html" id="suporte-link">Suporte</a>
+                <a href="FaleConosco.html" id="suporte-link">Suporte</a>
             </p>
 
             <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>

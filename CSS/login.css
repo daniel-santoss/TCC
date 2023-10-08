@@ -54,15 +54,16 @@ form input:hover{
 }
 
 form button{
-    border: solid 1px #4D4D4D;
     width: 49.7%;
     padding: 20px;
     font-size: 28px;
-    background: #4D4D4D;
+    background: #000000;
     color: white;
     border-radius: 7px;
     margin-left: 25%;
     cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 button:hover{

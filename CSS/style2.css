@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #313131;
+    background: #3a3a3a;
 }
 section{
     display: flex;
@@ -64,12 +64,14 @@ form textarea:focus{
 form button{
     padding: 15px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     background: transparent;
     border: 2px solid #f5f5f5;
     color: #f5f5f5;
     transition: all 1s;
     margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 form button:hover{
     background: #f5f5f5;

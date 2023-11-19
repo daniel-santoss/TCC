@@ -37,6 +37,7 @@ h3{
 }
 
 .formas button{
+    border: none;
     background: #000000;
     color: white;
     padding-top: 8px;

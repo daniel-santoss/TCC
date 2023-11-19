@@ -60,10 +60,10 @@
         <div class="topo">
             <h1 id="titulo">Loja</h1>
 
-            <form action="">
-                <input type="text" id="pesquisa" placeholder="Digite aqui o que procura">
+            <div class="inp">
+                <input type="text" id="pesquisa" placeholder="Digite aqui o que procura" onkeyup="pes()" onblur="calc()">
                 <button><img id="pesq" src="imagens/pes.png" alt="pesquisar"><a href=""></a></button>
-            </form>
+            </div>
         </div>
 
 
@@ -161,31 +161,31 @@
         <div class="produtos">
             <div class="prod1">
 
-                <a href="#"><img class="prods" src="imagens/Pulsera.jfif"></a>
+                <a href="#"><img class="prods" src="imagens/kit-piercing.jfif"></a>
                 <a href="#">
-                    <h4>Pulsera gótica</h4>
+                    <h4>Kit piercings</h4>
                 </a>
                 <a href="#">
-                    <p>R$ 30,00</p>
-                </a>
-                <a href="#"><img class="estrelas" src="imagens/5estrelas.png" id="estrela"></a>
-            </div>
-            <div class="prod1">
-
-                <a href="#"><img class="prods" src="imagens/Anel.jpg"></a>
-                <a href="#">
-                    <h4>Anel gótico</h4>
-                </a>
-                <a href="#">
-                    <p>R$ 19,99</p>
+                    <p>R$ 21,99</p>
                 </a>
                 <a href="#"><img class="estrelas" src="imagens/5estrelas.png" id="estrela"></a>
             </div>
             <div class="prod1">
 
-                <a href="#"><img class="prods" src="imagens/Cordao.jpg"></a>
+                <a href="#"><img class="prods" src="imagens/tatuagem-falsa.jfif"></a>
                 <a href="#">
-                    <h4>Cordão gótico</h4>
+                    <h4>Tatuagem falsa</h4>
+                </a>
+                <a href="#">
+                    <p>R$ 30,90</p>
+                </a>
+                <a href="#"><img class="estrelas" src="imagens/5estrelas.png" id="estrela"></a>
+            </div>
+            <div class="prod1">
+
+                <a href="#"><img class="prods" src="imagens/hidra-tatto.jfif"></a>
+                <a href="#">
+                    <h4>Kit 2 hid. tatuagem</h4>
                 </a>
                 <a href="#">
                     <p>R$ 15,99</p>
@@ -194,12 +194,12 @@
 
             </div>
             <div class="prod1">
-                <a href="#"><img class="prods" src="imagens/Pulsera.jfif"></a>
+                <a href="#"><img class="prods" src="imagens/pepel-hec.png"></a>
                 <a href="#">
-                    <h4>Pulseira gótica</h4>
+                    <h4>Papel hectográfico</h4>
                 </a>
                 <a href="#">
-                    <p>R$ 30,00</p>
+                    <p>R$ 40,50</p>
                 </a>
                 <a href="#"><img class="estrelas" src="imagens/5estrelas.png" id="estrela"></a>
             </div>
@@ -217,5 +217,8 @@
                 Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
         </article>
     </footer>
+
+    <script src="JS/loja.js">   </script>
+
 </body>
 </html>

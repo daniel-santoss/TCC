@@ -147,6 +147,13 @@ h1{
     margin-bottom: 150px;
 }
 
+#btn:hover{
+    background: #f5f5f5;
+    color: #101026;
+    transition-duration: 1s;
+    border-radius: 16px;
+
+}
 
 .mais-produtos h2, .mais-profissionais h2, .orcamentos h2{
     padding: 15px;
@@ -183,7 +190,7 @@ h1{
 .profissionais img{
     width: 200px;
     height: 200px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 20px;
 }

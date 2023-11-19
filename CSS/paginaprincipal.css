@@ -120,7 +120,7 @@ font-family: 'Cloister Black', sans-serif;
 
 
 button{
-    
+    border: none;
     margin-left: auto;
     margin-right: auto;
     padding: 16px;

@@ -49,12 +49,14 @@ h1{
 .parte1{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .parte1 img{
-    margin-right: 30%;
+    
     height: 350px;
     margin-top: 30px;
+    margin-right: 80px;
 }
 
 .parte1 h2{
@@ -63,8 +65,6 @@ h1{
 
 .texto{
     width: 400px;
-    position: absolute;
-    margin-left: 30%;
     font-size: 30px;
     color: white;
     font-family: 'Cloister Black', sans-serif;
@@ -73,7 +73,6 @@ h1{
 .text1{
     width: 500px;
     text-align: justify;
-    margin-left: 20%;
     font-size: 22px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif

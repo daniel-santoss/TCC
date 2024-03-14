@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "labels labels labels"
+                        "inputs inputs inputs";
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.container select, .container input{
+    height: 38px;
+    min-width: 350px;
+    grid-area: "labels";
+}
+
+
+
+label{
+    grid-area: "label";
+}
+
+.ref img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+    border: 1px solid black;
+    background: black;
+    
+}
+
+.inputfile {
+    /* visibility: hidden etc. wont work */
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    
+    
+
+  }
+  .inputfile:focus + label {
+    /* keyboard navigation */
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+    
+    
+  }
+  .inputfile + label * {
+    pointer-events: none;
+
+    
+    
+  }
+
+.file-c{
+    border: 1px solid black;
+    border-left: none;
+    background: white;
+    color: black;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    cursor: pointer;
+    align-self: center;
+
+
+}
+
+
+.baixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+input[type=radio], input[type=checkbox]  {
+    border: 0px;
+    width: 100%;
+    height: 2.5em;
+}
+
+
+.radio{
+
+    background: blue;
+    width: 0px;
+    margin-right: 200px;
+    font-size: 30px;
+    color: white;
+}
+
+.ref{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

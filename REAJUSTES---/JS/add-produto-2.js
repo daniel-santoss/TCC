@@ -1,16 +1,16 @@
-const adicionar = document.querySelector('.bi bi-plus-lg')
-const span = document.querySelector('.qtd')
-const subtrair = document.querySelector('.bi bi-dash-lg')
+const adicionarBtn = document.querySelector('.adicionar');
+const subtrairBtn = document.querySelector('.subtrair');
+const qtd = document.querySelector('.qtd');
+let valorAtual = parseInt(qtd.textContent);
 
+adicionarBtn.addEventListener('click', () => {
+    valorAtual++;
+    qtd.textContent = valorAtual;
+});
 
-function add(){
-    console.log('hdhod');
+subtrairBtn.addEventListener('click', () => {
+    if(valorAtual >0 ) {
+        valorAtual--;
+    qtd.textContent = valorAtual;
 }
-
-function sub(){
-    console.log('hdhsdddddddddddddddddod');
-}
-
-adicionar.addEventListener('click', add);
-subtrair.addEventListener('click', sub);
-
+});

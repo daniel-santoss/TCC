@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -11,42 +9,50 @@ body{
     background: #1A1A1A;
 }
 
-main{
-    display: flex;
-    justify-content: center;
+
+.container-recuperar-senha{
+    width: 35rem;
+    height: 80vh;
+    margin: 0 auto;
     color: white;
+    outline: 2px solid white;
+    margin-top: -10px;
+    border-radius: 10px;
 }
 
-.rec{
+.container-recuperar-senha form{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    width: 50vw;
-    min-height: 100vh;
-    text-align: center; 
+    width: 100%;
+    height: 100%;
+    
 }
 
-.rec h1{
-    position: relative;
-    bottom: 100px;
-    font-size: 70px;
+.container-recuperar-senha form img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.container-recuperar-senha h1{
+    font-size: 50px;
     font-family: 'Cloister Black', sans-serif;
+    margin-top: -40px;
 }
 
-h2{
-    text-align: left;
-    margin-bottom: 10px;
+.codigo, .codigo h2{
+    text-align: center;
+    margin-bottom: 6px;
 }
 
-
-
-.rec input{
+.container-recuperar-senha input{
     width:30rem;
     height: 3rem;
     font-size: 18px;
 }
 
-.rec button{
+.container-recuperar-senha button{
     width: 30rem;
     height: 3rem;
     cursor: pointer;
@@ -60,57 +66,17 @@ h2{
     font-weight: bold;
 }
 
-.rec button:hover{
+.container-recuperar-senha button:hover{
     background: #ffffff;
     color: #0e0e0e;
     transition: 0.5s;
 }
 
-.logo-c{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    min-height: 100vh;
-    background: #0e0e0e;
-}
 
 .logo img{
     height: 400px;
     width: 400px;
 }
 
-
-.caix{
-    margin-bottom: 200px;
-}
-
-.sup{
-    width: 30rem;
-    height: 3rem;
-    display: flex;
-    font-size: 25px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 60px;
-    cursor: pointer ;  
-    text-align: center;  
-    width: 30rem;
-    border-radius: 8px;
-    background: black;
-    
-
-}
-.sup:hover{
-    background: #ffffff;
-    color: #0e0e0e;
-    transition: 0.5s;
-}
-
-.sup h3{
-    margin-left: 10px;
-}
 
 

@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #3a3a3a;
+    background: #1A1A1A;
 }
 section{
     display: flex;
@@ -21,6 +21,7 @@ section{
     width: 500px;
     background: #000000;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    outline: 4px inset white;
 }
 section h2{
     color: #f5f5f5;
@@ -32,6 +33,7 @@ section form{
     display: flex;
     flex-direction: column;
     width: 100%;
+
 
 }
 form label{

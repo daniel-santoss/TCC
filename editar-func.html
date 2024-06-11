@@ -12,48 +12,34 @@
 
     <link rel="stylesheet" href="./CSS/Perfil.css">
     <link rel="stylesheet" href="./CSS/cabeca-rodape.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>Editar perfil</title>
 </head>
 
-<body>
-    <header>
-        <nav class="menu" style="margin-bottom: 0;">
-            <a href="Perfil-cliente.html"><img src="./imagens/seta-voltar-com-traco.png" width="60px" height="60px"></a>
-
-            <ul>
-                <li class="dropdown">
-                    <a href=""><img src="./imagens/menu.png"></a>
-    
-                    <div class="dropdown-menu">
-                        <a href="Cadastro.html" target="_self">Cadastro</a>
-                    <a href="Home.html" target="_self">Chat</a>
-                    <a href="Painel.html" target="_self">Carrinho</a>
-                    <a href="FaleConosco.html" target="_self">Fale conosco</a>
-                    </ul>
-            
-
-            <div class="logo">
-                <a href="Home.html">
-                    <img src="./imagens/LogoINK.png" style="height: 120px; width: 120px; border-radius: 50%;"></a>
+<body style="background-color: #000;">
+    <header class="d-flex justify-content-center mb-5">
+        <nav class="container-fluid menu px-5">
+            <div class="container" style="max-width: 510px;">
                 <p class="plogo">O melhor site de tatuagem do Brasil!</p>
             </div>
 
             <div class="links">
                 <div class="as">
-                <a href="Login.html">Login</a>
-                <a href="Loja.html">Loja</a>
-                <a href="#">Orçamentos</a>
+                    <a href="Home.html">Home</a>
+                    <a href="Login.html">Login</a>
+                    <a href="orcamentos.html">Orçamentos</a>
                 </div>
 
                 <div class="redes">
                     <div class="as2">
-                    <a href="https://www.instagram.com/">
-                        <img src="./imagens/insta.png" width="50px" height="50px"></a>
-
-                    <a href="https://www.facebook.com">
-                        <img src="./imagens/face.png" width="50px" height="50px"></a>
+                        <a href="https://www.instagram.com/">
+                            <img src="imagens/insta.png" width="50px" height="50px"></a>
+                        <a href="https://www.facebook.com">
+                            <img src="imagens/face.png" width="50px" height="50px"></a>
+                    </div>
                 </div>
-
             </div>
         </nav>
     </header>
@@ -92,14 +78,14 @@
         </div>
     </main>
 
-    <footer style="margin-top: 100px;">
-        <article class="rodape">
-            <p class="inf-contato">Email: inkstudiotattoo@gmail.com<br>
+    <footer class="container-fluid d-flex justify-content-center mt-5">
+        <article class="row container">
+            <p class="col">Email: inkstudiotattoo@gmail.com<br>
                 Tel: +55 11 3242-2345 <br>
-                <a href="Suporte.html" id="suporte-link">Suporte</a>
+                <a href="FaleConosco.html" id="suporte-link">Suporte</a>
             </p>
 
-            <p class="inf-local">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
+            <p class="col">Local: R. Interna Grupo Bandeirante, 2956-3006 - Jardim Belval<br> <br>
                 Estamos abertos de segunda a sexta das 8:00h ás 19:00h <br> e aos sábados das 8:00h ás 16:00h</p>
         </article>
     </footer>

@@ -34,3 +34,9 @@ button:hover{
     cursor: pointer;
 
 }
+
+#h1{
+    font-family: 'Cloister Black', sans-serif;
+    text-align: center;
+    font-size: 50px;     
+}
